@@ -1,0 +1,90 @@
+Started Sun May 18 14:01:46 2025
+
+session id: 1747569703
+LOADED: 'Init' 5 ms on Game Loading
+First Draw Time: 18281 ms
+LOADED: 'LoaderBar' 201 ms on Game Loading
+LOADING:Long reanim 'reanim\SelectorScreen.reanim' 167 ms on Game Loading
+Load Time: 24265 ms
+LOADED: 'DelayLoad_Zombatar' 242 ms on Game Selector
+LOADED: 'DelayLoad_Almanac' 80 ms on Game Selector
+Non-cheater failed to preload 'reanim\Zombie_FlagPole.reanim' on Game Selector
+Non-cheater failed to preload 'reanim\zombatar_zombie_head.reanim' on Game Selector
+LOADING:Long reanim 'reanim\zombatar_zombie_head.reanim' 168 ms on Game Selector
+LOADED: 'DelayLoad_Background3' 34 ms on Game Selector
+LOADED: 'DelayLoad_Credits' 485 ms on [INTRO]
+Non-cheater failed to preload 'reanim\Zombie_football.reanim' on [INTRO]
+Non-cheater failed to preload 'reanim\Zombie_snorkle.reanim' on [INTRO]
+Non-cheater failed to preload 'reanim\Zombie_catapult.reanim' on [INTRO]
+LOADED: 'DelayLoad_Background1' 37 ms on 1-1
+LOADED: 'DelayLoad_BackgroundUnsodded' 59 ms on 1-1
+Non-cheater failed to preload 'reanim\Zombie_yeti.reanim' on Not Playing
+LOADED: 'DelayLoad_AwardScreen' 22 ms on Award Screen
+LOADING:Long sanding 'data/houseofterror28' 42 ms on 1-2
+Non-cheater failed to preload 'reanim\Zombie_ladder.reanim' on Not Playing
+LOADING:Long reanim 'reanim\CrazyDave.reanim' 112 ms on 1-5
+Non-cheater failed to preload 'reanim\Zombie_backup.reanim' on Not Playing
+SetAchievement ƒø|.L$QT$Rƒì¸
+
+**************************************************************
+
+Stack:
+  unknown file addr 0x768db532 error 487
+  unknown symbol addr 0x541e8f error 487
+  unknown symbol addr 0x559b2a error 487
+  unknown symbol addr 0x4074c0 error 487
+  unknown symbol addr 0x705ba3 error 487
+  unknown symbol addr 0x705bfb error 487
+  unknown file addr 0x771efcc9 error 487
+  unknown file addr 0x773a827e error 487
+  unknown file addr 0x773c9340 error 487
+  unknown symbol addr 0x6000 error 126
+  unknown symbol addr 0x1000 error 126
+  unknown symbol addr 0x2 error 126
+  
+Saved minidump file 'C:\ProgramData\PopCap Games\PlantsVsZombies\userdata\GameMiniDump_1747571269.dmp'.
+Saved crash screen shot 'C:\ProgramData\PopCap Games\PlantsVsZombies\userdata\CrashScreenShot_1747571269.jpg'.
+Error Message:
+
+.\Zombie.cpp(125)
+assertion failed: 'theType >= 0 && theType < NUM_ZOMBIE_TYPES'
+
+
+
+
+User Text:
+
+
+Error Title:
+Exception at 0001:0013A532
+
+Error Text:
+Exception: Noncontinuable Exception (code 0xc0000025) at address 768DB532 in thread CB4
+Module: KERNELBASE.dll
+Logical Address: 0001:0013A532
+
+0019FFE8 773C9340 RtlCaptureContext+100 [(Unknown File Name)(0)+0x00000000]
+Params: 00000000 006C1B9A 002CB000 00000000
+
+
+EAX:0019F330 EBX:00000000 ECX:00000000 EDX:00000000 ESI:00000001 EDI:00000000
+EIP:773C9340 ESP:0019FFEC  EBP:FFFFFFFF
+CS:0023 SS:002B DS:002B ES:002B FS:0053 GS:002B
+Flags:00000246
+
+Windows Ver: NT 6.2  Build 9200
+DDraw Ver: 
+DSound Ver: 
+
+Product: PlantsVsZombies
+Version: 1.2.0.1073
+Time Loaded: 00:26:05
+Fullscreen: Yes
+Primary ThreadId: CB4
+Times Played: 0
+Build Num: 0
+Build Date: 
+
+
+**************************************************************
+
